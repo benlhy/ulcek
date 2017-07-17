@@ -1,4 +1,4 @@
-### Introduction
+## Introduction
 Please visit www.westsideelectronics.com/ulcek for full details
 
 This kit is designed to be as cost-efficient as possible without compromising on the quality of the learning experience. That means that anything that would hinder or otherwise break the flow in the learning process is removed.
@@ -15,6 +15,11 @@ This kit is designed to be as cost-efficient as possible without compromising on
 * Potentiometer with Knob (blue)
 
 ### Removed Components
-* Digispark - programming the ATTINY chip was too troublesome and not worth the $3 in savings.
+* Digispark - programming the ATTiny85 chip was too troublesome and not worth the $3 in savings.
 * WeMos Mini V2/Arduino Nano - The driver for the CH340G USB interface caused too much trouble with MacOS devices.
 * Normal Wires (circular ends) - The rubber parts tend to separate easily from the female ends.
+
+### Potential Components
+* Motors
+* Solar panels
+* Environment sensors

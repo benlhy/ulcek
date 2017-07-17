@@ -2,4 +2,6 @@
 
 Instructions and code are provided on www.ulcek.com
 
-For instructions on building your own kit visit www.westsideelectronics.com/ulcek
+For instructions on building your own kit please view BuildAKit.md
+
+Please submit a issue if you have any suggestions.
