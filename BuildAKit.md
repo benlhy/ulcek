@@ -1,5 +1,5 @@
 ## Introduction
-Please visit www.westsideelectronics.com/ulcek for full details
+Please visit www.westsideelectronics.com/ulcek for full details why certain components were chosen.
 
 This kit is designed to be as cost-efficient as possible without compromising on the quality of the learning experience. That means that anything that would hinder or otherwise break the flow in the learning process is removed.
 
