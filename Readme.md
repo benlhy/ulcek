@@ -1,6 +1,6 @@
 ### Welcome to the ULCEK repo
 
-Instructions and code are provided on www.ulcek.com
+Instructions and code are provided on https://ulcek.com
 
 For instructions on building your own kit please view BuildAKit.md
 
