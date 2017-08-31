@@ -39,7 +39,7 @@ void loop() {
 
 
 // Functions we wrote
-
+// This function takes in a red, green, blue and displays the colors
 void turn_on(int r, int g, int b){
   for(int i=0; i <NUMPIXELS;i++){
     pixels.setPixelColor(i,pixels.Color(r,g,b));
@@ -47,6 +47,8 @@ void turn_on(int r, int g, int b){
   pixels.show();
 }
 
+
+// This function turns off all pixels
 void turn_off(){
   for(int i=0; i<NUMPIXELS;i++){
     pixels.setPixelColor(i,pixels.Color(0,0,0)); // set the color to (0,0,0), off!

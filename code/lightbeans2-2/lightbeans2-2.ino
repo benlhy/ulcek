@@ -17,14 +17,14 @@ void setup()
 {
     Serial.begin(9600); // setup the serial
     pixels.begin(); // initialise the neopixel
-    pinMode(INPUT_PIN,INPUT);
+    pinMode(INPUT_PIN,INPUT); // we are taking
 }
 
 
 void loop()
 {
-    input_value = analogRead(INPUT_PIN); // get the value read
-    Serial.println(input_value); // print the value
+    input_value = analogRead(INPUT_PIN); // get the value of the input
+    Serial.println(input_value); // print the value so that we know what the system is seeing
     input_value = ((MAX_BRIGHTNESS-input_value)/MAX_BRIGHTNESS) * (3*(255)); // Scale input to 765 so we can use it for our rgb value
     //Serial.println(input_value);
     if (input_value<255){ // if less than 1/3, light only red
@@ -37,7 +37,7 @@ void loop()
         g = input_value-255; // maximum value 510
         b = 0;
     }
-    if(input_value>510){
+    if(input_value>510){ // mix green and blue
         r = 0; // no red
         g = 765-input_value; // no green
         b = input_value-510; // max blue at 755

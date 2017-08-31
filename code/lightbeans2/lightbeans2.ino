@@ -1,7 +1,7 @@
 // Lightbeans 2, Sensors
 
 #define MAX_BRIGHTNESS 450.0 // You will need to calibrate this value by opening the Serial Monitor, and add a decimal point
-#define RESPONSE_TIME 1000 // in ms, reduce this if want a faster response
+#define RESPONSE_TIME 1000 // in ms, reduce this if a faster response is wanted
 
 float LED_value; // we use floats because we are using division and decimal points
 float light_level;
